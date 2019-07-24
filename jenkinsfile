@@ -7,5 +7,5 @@ node {
 	 
 	        
 		bat "C:\\Users\\devadmin\\Downloads\\nuget.exe restore MVCJenkins.sln"
-		bat "\"${tool '15.0'}\" MVCJenkins.sln /p:Configuration=Release /p:Platform=\"x86\"
+		bat "\"${tool '15.0'}\" MVCJenkins.sln /p:Configuration=Release /p:Platform=\"Any CPU\"
 }
